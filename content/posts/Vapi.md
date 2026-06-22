@@ -12,7 +12,6 @@ tags:
   - sql-injection
 categories:
   - Writeups
-  - reports 
 description: Complete security assessment of vAPI covering all OWASP API Top 10 (2019) vulnerabilities plus JWT manipulation, SSRF, and XSS Arena challenges. 13 confirmed findings from Critical to Low severity.
 publish: "true"
 ---
