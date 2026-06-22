@@ -30,12 +30,13 @@ The findings range in severity from Critical to Low. The most severe vulnerabili
 | API5          | [API5](Vapi.md#API5)                   | Broken Function Level Authorization | High     |
 | API6          | [API6](Vapi.md#API6)                   | Mass Assignment                     | High     |
 | API7<br>      | [API7](Vapi.md#API7)                   | Security Misconfiguration           | High     |
-| API8<br>      | [API18](Vapi.md#API18)]                 | Injection                           | Critical |
+| API8<br>      | [API18](Vapi.md#API18)                  | Injection                           | Critical |
 | API9<br>      | [API9](Vapi.md#API9)                   | Improper Assets Management          | High     |
 | API10<br>     | [API10](Vapi.md#API10)                  | Insufficient Logging and Monitoring | Medium   |
 | Arena- JWT    | [Just weak tokens (JWT)](Vapi.md#Just%20weak%20tokens%20(JWT)) | Just- Weak Tokens                   | High     |
 | Arena - SSRF  | [ServerSurfer](Vapi.md#ServerSurfer)           | Server-Side Forgery                 | High     |
 | Arena - XSS   | [Sticky Notes](Vapi.md#Sticky%20Notes)           | Cross-Site Scripting                | High     |
+
 The assessment demonstrates that API security cannot be treated as an afterthought. Each vulnerability in this report represents a category of weakness consistently found in real-world production APIs. The remediation guidance provided for each finding reflects current industry best practice as defined by OWASP, NIST and established secure development standards.
 ## Introduction and Installation
 This write-up focuses on  VAPI. It is a vulnerable adversely Programmed Interface which is a self-hostable API mimicking OWASP API Top 10 the 2019 version. It can  be found in  https://github.com/roottusk/vapi and the installation process since it will be self hosted:
