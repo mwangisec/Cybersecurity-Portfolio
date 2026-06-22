@@ -1,0 +1,17 @@
+baseURL = "https://EddieMwangi.pages.dev/"
+languageCode = "en-us"
+title = "Eddie | Security Research"
+theme = "PaperMod"
+
+[params]
+  description = "Cybersecurity writeups, API security research, lab reports, penetration testing writeups and cybersecurity analysis"
+  author = "Eddie Mwangi"
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowToc = true
+  TocOpen = false
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
