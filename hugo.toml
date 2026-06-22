@@ -12,7 +12,7 @@ theme = "stack"
 
   [params.sidebar]
     emoji = "🔐"
-    subtitle = "> Decrypting the attack surface"
+    subtitle = "Let's be secure"
     
     [params.sidebar.avatar]
       enabled = true
@@ -29,6 +29,7 @@ theme = "stack"
   [params.article]
     math = false
     readingTime = true
+    toc = true
 
 [menu]
   [[menu.main]]
