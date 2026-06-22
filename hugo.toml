@@ -1,16 +1,52 @@
 baseURL = "https://cybersecurity-portfolio-6pl.pages.dev/"
 languageCode = "en-us"
-title = "Eddie | Security Research"
-theme = "PaperMod"
+title = "Eddie Mwangi | Security Research"
+theme = "stack"
+
+[author]
+  name = "Eddie Mwangi"
 
 [params]
-  description = "Cybersecurity writeups, API security research, lab reports, penetration testing writeups and cybersecurity analysis"
-  author = "Eddie Mwangi"
-  ShowReadingTime = true
-  ShowShareButtons = false
-  ShowPostNavLinks = true
-  ShowToc = true
-  TocOpen = false
+  description = "API security research, penetration testing writeups, and cybersecurity analysis"
+  mainSections = ["posts"]
+
+  [params.sidebar]
+    emoji = "🔐"
+    subtitle = "> Decrypting the attack surface"
+    
+    [params.sidebar.avatar]
+      enabled = true
+      local = true
+      src = "img/avatar.png"
+
+  [params.footer]
+    since = 2026
+
+  [params.colorScheme]
+    toggle = true
+    default = "dark"
+
+  [params.article]
+    math = false
+    readingTime = true
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Posts"
+    url = "/posts"
+    weight = 2
+  [[menu.main]]
+    name = "Tags"
+    url = "/tags"
+    weight = 3
+  [[menu.main]]
+    name = "About"
+    url = "/about"
+    weight = 4
 
 [taxonomies]
   tag = "tags"
