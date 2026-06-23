@@ -30,7 +30,7 @@ theme = "stack"
     math = false
     readingTime = true
     toc = true
-
+    tocPosition = "left"
 [menu]
   [[menu.main]]
     name = "Home"
